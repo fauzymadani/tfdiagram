@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- connectors: a parent node generating two children (mirrors the tool's output) -->
+  <g fill="none" stroke="#202124" stroke-width="2.4" stroke-linecap="round">
+    <path d="M24 17 L13 29"/>
+    <path d="M24 17 L35 29"/>
+  </g>
+  <!-- nodes: rounded "cards", category-colored like a real diagram -->
+  <rect x="17" y="4"  width="14" height="14" rx="4" fill="#4285f4"/>
+  <rect x="5"  y="29" width="14" height="14" rx="4" fill="#f9ab00"/>
+  <rect x="29" y="29" width="14" height="14" rx="4" fill="#1e8e3e"/>
+</svg>

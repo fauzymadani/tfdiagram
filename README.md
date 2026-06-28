@@ -1,4 +1,4 @@
-# tfdiagram
+<img src="assets/logo-wordmark.svg" alt="tfdiagram" height="48">
 
 Scan a Terraform codebase and generate a styled SVG architecture diagram.
 Graphviz computes the layout; the SVG is hand-rendered for a clean,
