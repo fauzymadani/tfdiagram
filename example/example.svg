@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="662" viewBox="0 0 780 662" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#5f6368"/></marker>
+<filter id="card" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1" stdDeviation="2.2" flood-color="#000" flood-opacity="0.14"/></filter>
+</defs>
+<rect width="780" height="662" fill="#ffffff"/>
+<text x="40.0" y="42.0" font-size="22" font-weight="600" fill="#202124" text-anchor="start">AWS Web App — Stroke Demo</text>
+<text x="40.0" y="66.0" font-size="13" font-weight="400" fill="#5f6368" text-anchor="start">Generated from example/main.tf</text>
+<circle cx="46" cy="84" r="6" fill="#4285f4"/>
+<text x="58.0" y="88.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">compute</text>
+<circle cx="123" cy="84" r="6" fill="#a142f4"/>
+<text x="135.0" y="88.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">database</text>
+<circle cx="207" cy="84" r="6" fill="#ea4335"/>
+<text x="219.0" y="88.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">dns</text>
+<circle cx="256" cy="84" r="6" fill="#f9ab00"/>
+<text x="268.0" y="88.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">network</text>
+<circle cx="333" cy="84" r="6" fill="#12b5cb"/>
+<text x="345.0" y="88.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">serverless</text>
+<circle cx="431" cy="84" r="6" fill="#1e8e3e"/>
+<text x="443.0" y="88.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">storage</text>
+<g transform="translate(24,100)">
+<rect x="8.0" y="212.0" width="560.0" height="308.0" rx="12" fill="#f3f7ff" stroke="#4285f4" stroke-width="2"/>
+<text x="24.0" y="236.0" font-size="14" font-weight="600" fill="#4285f4" text-anchor="start">VPC</text>
+<text x="24.0" y="252.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">main</text>
+<rect x="306.0" y="252.0" width="246.0" height="252.0" rx="12" fill="#fff8e1" stroke="#f9ab00" stroke-width="2"/>
+<text x="322.0" y="276.0" font-size="14" font-weight="600" fill="#f9ab00" text-anchor="start">Subnet</text>
+<text x="322.0" y="292.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">public</text>
+<rect x="24.0" y="370.0" width="246.0" height="134.0" rx="12" fill="#fff8e1" stroke="#f9ab00" stroke-width="2"/>
+<text x="40.0" y="394.0" font-size="14" font-weight="600" fill="#f9ab00" text-anchor="start">Subnet</text>
+<text x="40.0" y="410.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="start">private</text>
+<path d="M254.2,157.0 C272.6,157.0 291.7,157.0 310.3,157.0" fill="none" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.85"/>
+<path d="M254.2,321.1 C272.6,322.1 291.9,323.2 310.6,324.3" fill="none" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.85"/>
+<path d="M254.5,351.7 C259.8,354.4 265.0,357.1 270.0,360.0 C288.0,370.4 288.5,378.7 306.0,390.0 C313.6,394.9 321.6,399.6 329.9,404.2" fill="none" stroke="#5f6368" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.85"/>
+<rect x="322.0" y="410.0" width="214.0" height="78.0" rx="9" fill="#ffffff" stroke="#f9ab00" stroke-width="1.6" filter="url(#card)"/>
+<rect x="322.0" y="410.0" width="5" height="78.0" rx="2.5" fill="#f9ab00"/>
+<text x="431.0" y="437.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">Load Balancer</text>
+<text x="431.0" y="455.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="middle" font-style="italic">front</text>
+<rect x="322.0" y="292.0" width="214.0" height="78.0" rx="9" fill="#ffffff" stroke="#4285f4" stroke-width="1.6" filter="url(#card)"/>
+<rect x="322.0" y="292.0" width="5" height="78.0" rx="2.5" fill="#4285f4"/>
+<text x="431.0" y="319.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">EC2 Instance</text>
+<text x="431.0" y="337.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="middle" font-style="italic">web</text>
+<rect x="40.0" y="410.0" width="214.0" height="78.0" rx="9" fill="#ffffff" stroke="#a142f4" stroke-width="1.6" filter="url(#card)"/>
+<rect x="40.0" y="410.0" width="5" height="78.0" rx="2.5" fill="#a142f4"/>
+<text x="149.0" y="437.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">RDS Database</text>
+<text x="149.0" y="455.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="middle" font-style="italic">db</text>
+<rect x="40.0" y="276.0" width="214.0" height="78.0" rx="9" fill="#ffffff" stroke="#f9ab00" stroke-width="1.6" filter="url(#card)"/>
+<rect x="40.0" y="276.0" width="5" height="78.0" rx="2.5" fill="#f9ab00"/>
+<text x="149.0" y="303.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">Security Group</text>
+<text x="149.0" y="321.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="middle" font-style="italic">web</text>
+<rect x="40.0" y="118.0" width="214.0" height="78.0" rx="9" fill="#ffffff" stroke="#1e8e3e" stroke-width="1.6" filter="url(#card)"/>
+<rect x="40.0" y="118.0" width="5" height="78.0" rx="2.5" fill="#1e8e3e"/>
+<text x="149.0" y="145.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">S3 Bucket</text>
+<text x="149.0" y="163.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="middle" font-style="italic">assets</text>
+<text x="149.0" y="180.0" font-size="10.5" font-weight="400" fill="#9aa0a6" text-anchor="middle">bucket: my-app-assets</text>
+<rect x="322.0" y="118.0" width="214.0" height="78.0" rx="9" fill="#ffffff" stroke="#12b5cb" stroke-width="1.6" filter="url(#card)"/>
+<rect x="322.0" y="118.0" width="5" height="78.0" rx="2.5" fill="#12b5cb"/>
+<text x="431.0" y="145.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">Lambda Function</text>
+<text x="431.0" y="163.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="middle" font-style="italic">thumbnailer</text>
+<text x="431.0" y="180.0" font-size="10.5" font-weight="400" fill="#9aa0a6" text-anchor="middle">function name: thumbnailer</text>
+<rect x="40.0" y="0.0" width="214.0" height="78.0" rx="9" fill="#ffffff" stroke="#ea4335" stroke-width="1.6" filter="url(#card)"/>
+<rect x="40.0" y="0.0" width="5" height="78.0" rx="2.5" fill="#ea4335"/>
+<text x="149.0" y="27.0" font-size="13" font-weight="600" fill="#202124" text-anchor="middle">Route 53 Zone</text>
+<text x="149.0" y="45.0" font-size="11.5" font-weight="400" fill="#5f6368" text-anchor="middle" font-style="italic">primary</text>
+<text x="149.0" y="62.0" font-size="10.5" font-weight="400" fill="#9aa0a6" text-anchor="middle">name: example.com</text>
+</g>
+<text x="40.0" y="650.0" font-size="11" font-weight="400" fill="#9aa0a6" text-anchor="start">Generated from Terraform by tfdiagram — not authoritative; verify against plan.</text>
+</svg>
